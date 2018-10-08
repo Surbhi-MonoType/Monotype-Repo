@@ -1,0 +1,190 @@
+<div id="myfontsContainer" className="newHeaderFooter includesCategories transition-fade transition-transform fluid">
+			<div className="headerWrapper">
+				<header id="myfontsHeader" className="robots-nocontent clearfix">
+					<nav id="headerNavMobile">
+						<button className="icon bhvr_header_4"></button>
+					</nav>
+					<div id="headerContainer">
+						<div id="headerCart"><a href="/cart/" className="opener">    <i id="cartImage"></i>
+						<span id="cartText">0 items, $0.00</span></a></div>
+		
+						<div id="headerLogin" className="bhvr_header_5">
+							<a id="headerLoginLink" href="https://www.myfonts.com/secure/login/" className="bhvr_header_2">
+							<span id="headerLoginUsername">Sign in</span>
+								<span className="arrow"></span>
+							</a>
+								<a className="mls-nav hide" href="/browse/mls/" title="Browse the Monotype Library Subscription">Browse the Monotype Library Subscription</a>
+
+							<iframe className="dropdownLoginFrame" frameborder="0" scrolling="no" src="//www.myfonts.com/widgets/dropdown_login/dropdown_login.php?https=1" style="display:none;"></iframe>
+							<nav id="userMenu" style="display:none;">
+								<a href="/my/orders/" data-qe-id="orders">Order history &amp; downloads</a>
+								<a href="/my/orders/kitbuild.html" data-qe-id="webfontKitBuilder">Webfont kit builder</a>
+								<a href="/my/quotes/" data-qe-id="quotes">Price quotes</a>
+								<a href="/my/settings/" data-qe-id="settings">Account settings</a>
+								<a href="/my/renewals/" data-qe-id="subscriptions">Subscriptions</a>
+								<a href="/my/albums/" data-qe-id="albums">Albums</a>
+								<a href="/my/favorites/" data-qe-id="favorites" className="userMenu__item--desktopHidden">Favorites</a>
+								<a href="/my/tags/" data-qe-id="tags">Tags</a>
+								<a href="/my/wtf/" data-qe-id="wtf">WhatTheFont forum posts</a>
+								<a href="https://www.myfonts.com/secure/logout/" id="signOut">Sign out</a>
+							</nav>
+		
+							<a href="/my/favorites/" className="favorites hidden"></a>
+						</div>
+					</div>
+		
+					<div id="headerLogotypeNew">
+						<a href="/"></a>
+					</div>
+		
+					<div className="searchBarWidget searchBoxComponent">
+			<form id="searchBarWidgetForm" method="get" action="/search" onsubmit="return handleSubmit(this);">
+				<div className="searchBarWidget_filter filter"><span className="selected">All fonts</span>
+		<div className="arrow-down"></div>
+		<ul className="items hidden">
+			<li data-filter="all" className="all hidden">All fonts</li>
+			<li data-filter="free" className="free">Free fonts</li>
+			<li data-filter="webfonts" className="webfonts">Webfonts</li>
+			<li data-filter="mls" className="mls">Subscription</li>
+		</ul></div>
+				<div className="searchBarWidget__query query">
+					<input name="q" size="15" placeholder="Search over 130,000 fonts…and counting!" type="text" autocomplete="off">
+					<ul className="auto_complete_results hidden"></ul>
+				</div>
+				<button type="submit" id="searchButton" className="searchBarWidget__searchButton">
+					<span className="-search">Search</span>
+					<span className="-searchMobile">GO</span>
+				</button>
+			</form>
+		</div>
+		
+					<nav id="headerNavMobileHomepage">
+						<a className="signIn" href="https://www.myfonts.com/secure/login/">
+							<button>
+															Sign in
+													</button>
+						</a>
+					</nav>
+				</header>
+				<nav className="navigationBar">
+					<div className="navigationBar__linkWrapper">
+						<a className="navigationBar__link" href="/hotnewfonts/">Hot New Fonts</a>
+						<a className="navigationBar__link" href="/bestsellers/">Best Sellers</a>
+						<a className="navigationBar__link" href="/whatsnew/">What's New</a>
+						<a className="navigationBar__link" href="/specials/">Special Offers</a>
+						<a className="navigationBar__link" href="/bundles/">Bundles</a>
+						<div className="navigationBar__menu">
+							<a className="navigationBar__link navigationBar__link--toggle" href="/WhatTheFont/">WhatTheFont</a>
+							<nav className="navigationBar__submenu">
+								<div className="navigationBar__submenu__linkWrapper">
+									<a className="navigationBar__link" href="/WhatTheFont/">WhatTheFont</a>
+									<a className="navigationBar__link" href="/WhatTheFont/forum/">WhatTheFont Forum</a>
+									<a className="navigationBar__link" href="/WhatTheFont/mobile/">WhatTheFont Mobile</a>
+								</div>
+							</nav>
+						</div>
+						<a className="navigationBar__link" href="/team/">Team Subscription</a>
+					</div>
+				</nav>
+	
+				<div className="headerWrapper__categoriesWrapper">
+					<div className="headerWrapper__categoriesWrapper__container">
+						<div className="homepageFontCategoriesWidget">
+							<div className="homepageFontCategoriesWidget__text">
+								<h2>Browse Fonts </h2>
+								<span>by category</span>
+							</div>
+							<div className="homepageFontCategoriesWidget__category">
+								<div className="homepageFontCategoriesWidget__category__first">
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3A%22sans+serif%22/fonts/?sort=sales">
+											<img src="https://cdn.myfonts.net/s/images/categories/futura-next.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category1" alt="Set in Futura Next by Neufville" title="Set in Futura Next by Neufville">
+										</a>
+									</div>
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3A%22slab+serif%22/fonts/?sort=sales">
+											<img src="https://cdn.myfonts.net/s/images/categories/queulat-condensed.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category2" alt="Set in Queulat Condensed by Latinotype" title="Set in Queulat Condensed by Latinotype">
+										</a>
+									</div>
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3Aserif/fonts/?sort=sales">
+											<img src="https://cdn.myfonts.net/s/images/categories/baskerville-display-pt.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category3" alt="Set in Baskerville Display PT by ParaType" title="Set in Baskerville Display PT by ParaType">
+										</a>
+									</div>
+								</div>
+								<div className="homepageFontCategoriesWidget__category__second">
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3Adisplay/fonts/?sort=sales">
+											<img src="https://cdn.myfonts.net/s/images/categories/display.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category4" alt="Set in Frontage Condensed by Juri Zaech" title="Set in Frontage Condensed by Juri Zaech">
+										</a>
+									</div>
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3Ahandwritten/fonts/?sort=score">
+											<img src="https://cdn.myfonts.net/s/images/categories/reliable.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category5" alt="Set in Reliable by PizzaDude.dk" title="Set in Reliable by PizzaDude.dk">
+										</a>
+									</div>
+									<div className="homepageFontCategoriesWidget__category__card">
+										<a href="/search/tag%3Ascript/fonts/?sort=sales">
+											<img src="https://cdn.myfonts.net/s/images/categories/kaleidos-rough.png" className="homepageFontCategoriesWidget__category__cardImage homepageFontCategoriesWidget__category__cardImage--category6" alt="Set in Kaleidos Rough by Mika Melvas" title="Set in Kaleidos Rough by Mika Melvas">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="myfontsBody" className="clearfix">
+				<div className="homepage">
+					<div className="homepage__mainBlock">
+						<div className="homepage__mainBlock__valuePropositionWrapper">
+							<div className="homepage__container">
+								<div className="homepage__mainBlock__valuePropositionWrapper__title">
+									The largest selection of professional fonts for any project.
+								</div>
+								<div className="homepage__mainBlock__valuePropositionWrapper__subtitle">
+									Over 130,000 available fonts, and counting. Check out some of our latest releases…
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="mainFooter">
+				<nav className="links">
+					<div className="linkRow">
+						<a href="/help/">Help</a>
+									<a href="/info/webfonts/">Webfonts</a>
+						<a href="/licensing/">Licensing</a>
+						<a href="http://meta.myfonts.com/">Blog</a>
+						<a href="/newsletters/">Newsletters</a>
+						<a href="/info/legal/" target="_blank">Legal</a>
+						<a href="//foundry.myfonts.com/guides/">Sell Your Fonts</a>
+									<a href="#getshorturl" id="footer_short_url" className="bhvr_global_12">Get Short URL</a>
+					</div>
+				</nav>
+				<nav className="social">
+					<a href="http://twitter.com/MyFonts" title="Twitter">t</a>
+					<a href="http://facebook.com/MyFonts" title="Facebook">f</a>
+					<a href="http://www.pinterest.com/myfonts/" title="Pinterest">p</a>
+					<a href="http://myfonts.tumblr.com/" title="Tumblr">T</a>
+					<a href="http://instagram.com/myfonts" title="Instagram">I</a>
+				</nav>
+				<div>The Monotype Brand Family</div>
+				<nav className="brands">
+					<a className="brands_monotype" href="https://www.monotype.com/">
+						<img src="/s/images/logo/monotype_logo_footer.png" alt="Monotype logo">
+					</a>
+					<a className="brands_olapic" href="http://www.olapic.com/">
+						<img src="/s/images/logo/olapic_logo_footer.png" alt="Olapic logo">
+					</a>
+					<a className="brands_mosaic" href="https://www.monotype.com/fonts/mosaic">
+						<img src="/s/images/logo/mosaic_logo_footer.png" alt="Mosaic logo">
+					</a>
+					<a className="brands_myfonts" href="http://www.myfonts.com/">
+						<img src="/s/images/logo/myfonts_logo_footer.png" alt="MyFonts logo">
+					</a>
+				</nav>
+				<div>Copyright © 1999-2018 MyFonts Inc.</div>
+			</footer>
+		</div>

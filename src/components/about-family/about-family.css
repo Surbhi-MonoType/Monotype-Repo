@@ -1,8 +1,0 @@
-.download-link{
-    flex:7;
-    font-size: 15px;
-    line-height: 20px;
-    text-overflow: ellipsis;
-        border: 1px solid grey;
-    border-radius: 3px;
-}
